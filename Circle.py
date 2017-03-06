@@ -7,7 +7,7 @@ class Circle(Shape):
 
 		#default value will cause null to be caught
 		if (radius < 0):
-			raise ValueError('Radius or diamater cannot be null or negative.')
+			raise ValueError('Radius or diamater values cannot be null or negative.')
 
 		self.radius = radius;
 

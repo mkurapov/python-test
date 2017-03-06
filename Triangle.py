@@ -5,7 +5,7 @@ class Triangle(Shape):
 
 		#default values will cause null to be caught
 		if (base < 0 or height < 0):
-			raise ValueError('Base or height cannot be null or negative.')
+			raise ValueError('Base and height values cannot be null or negative.')
 
 		self.base = base
 		self.height = height
